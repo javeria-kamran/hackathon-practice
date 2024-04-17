@@ -15,26 +15,9 @@ gap: 2em;
     display: inline-block;
 }
 
-/* .card{
-    flex-direction: row !important;
-} */
-.footer{
-    background-color: black;
-    color: white;
 
-}
 
-.footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-  }
 
-  .footer-column {
-    width: 33.33%;
-    float: left;
-    padding: 0 15px;
-  }
 
   /* Clear floats after the columns */
   .clearfix::after {
@@ -43,21 +26,439 @@ gap: 2em;
     display: table;
   }
 
-  /* Style links */
-  .footer a {
-    color: #fff;
-    text-decoration: none;
+ 
+  .testimonial{
+    width: 100%;
+    
+    background-color: rgb(240, 240, 240);
+  }
+  
+ #tomato{
+  margin-left: 0 !important;
+ }
+
+ /* #red{
+   margin-right: ($spacer * .25) !important;
+ } */
+
+.shop{
+  color: rgb(236, 236, 12);
+}
+.main-footer {
+  height: 300px;
+  width: 100%;
+  background-color: #252525;
+  padding: 40px;
+}
+
+.child-main {
+  height: 250px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.address {
+  height: 280px;
+  width: 30%;
+}
+
+.address h2 {
+  color: white;
+  padding-bottom: 20px;
+
+}
+
+
+.address a {
+  text-decoration: none;
+  color: white;
+
+}
+
+.links {
+  height: 280px;
+  width: 30%;
+}
+
+.links h2 {
+  color: white;
+  padding-bottom: 20px;
+
+}
+
+
+.links a {
+  text-decoration: none;
+  color: white;
+
+}
+
+
+.newsletter {
+  height: 280px;
+  width: 30%;
+}
+
+.newsletter h2 {
+  color: white;
+  padding-bottom: 20px;
+
+}
+
+
+
+.newsletter button {
+  background-color: #ECAD15;
+  height: 40px;
+  width: 150px;
+  border-radius: 30px;
+  color: white;
+  border: none;
+  margin-top: 20px;
+}
+
+
+.newsletter input {
+  border: none;
+  outline: none;
+  width: 250px;
+  padding: 5px;
+}
+
+@media (max-width: 750px) {
+
+
+  .main-footer {
+      height:400px;
+      width: 750px;
+      background-color: #252525;
+      margin-top: 30px;
   }
 
-  /* Style links on hover */
-  .footer a:hover {
-    text-decoration: underline;
+
+  
+
+  .child-main {
+      height: 600px;
+      width: 720px;
+
   }
-@media screen and (min-width: 480px) {
-    .navbar{
-        flex-direction: column !important;
-    }
+
+
+  .address {
+      height: 250px;
+      width: 100%;
   }
-  .shop{
-    color: rgb(238, 238, 96);
+
+  .address h2 {
+      color: white;
+      padding-bottom: 20px;
+
   }
+
+
+  .address a {
+      text-decoration: none;
+      color: white;
+
+  }
+
+  .links {
+      height: 250px;
+      width: 100%;
+     
+  }
+
+  .links h2 {
+      color: white;
+      padding-bottom: 20px;
+
+  }
+
+
+  .links a {
+      text-decoration: none;
+      color: white;
+
+  }
+
+
+  .newsletter {
+      height: 250px;
+      width: 100%;
+   
+  }
+
+  .newsletter h2 {
+      color: white;
+      padding-bottom: 20px;
+
+  }
+
+
+  .newsletter input {
+      border: none;
+      outline: none;
+      width: 180px;
+      padding: 5px;
+  }
+
+}
+
+
+
+
+@media (max-width: 550px) {
+
+
+  .main-footer {
+      height:700px;
+      width: 550px;
+      background-color: #252525;
+      margin-top: 30px;
+  }
+
+  .child-main {
+      height: 600px;
+      width: 520px;
+      flex-direction: column;
+
+  }
+
+
+  .address {
+      height: 250px;
+      width: 100%;
+  }
+
+  .address h2 {
+      color: white;
+      padding-bottom: 20px;
+
+  }
+
+
+  .address a {
+      text-decoration: none;
+      color: white;
+
+  }
+
+  .links {
+      height: 250px;
+      width: 100%;
+      margin-top: 40px;
+  }
+
+  .links h2 {
+      color: white;
+      padding-bottom: 20px;
+
+  }
+
+
+  .links a {
+      text-decoration: none;
+      color: white;
+
+  }
+
+
+  .newsletter {
+      height: 250px;
+      width: 100%;
+      margin-top: 40px;
+  }
+
+  .newsletter h2 {
+      color: white;
+      padding-bottom: 20px;
+
+  }
+
+
+  .newsletter input {
+      border: none;
+      outline: none;
+      width: 250px;
+      padding: 5px;
+  }
+} 
+@media screen and (max-width: 400px) {
+  .navbar{
+      flex-direction: column !important;
+  }
+  .alotof{
+    height: 200px;
+    width: 350px;
+    justify-content: center;
+  }
+  .abourshop{
+    height: 200px;
+    width: 350px;
+    justify-content: center;
+  }
+  .choose{
+    height: 150px;
+    width: 400px;
+    justify-content: center;
+  }
+  #tomato{
+    height: 30px;
+    width: 30px;
+  }
+  #red{
+    height:30px;
+    width: 30px;
+  }
+  .main-footer {
+    height:700px;
+    width: 350px;
+    background-color: #252525;
+    margin-top: 30px;
+}
+
+.child-main {
+    height: 600px;
+    width: 220px;
+    flex-direction: column;
+
+}
+
+.address {
+    height: 5;
+    width: 100%;
+}
+
+.address h2 {
+    color: white;
+    padding-bottom: 20px;
+
+}
+
+
+.address a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.links {
+    height: 250px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.links h2 {
+    color: white;
+    padding-bottom: 20px;
+
+}
+
+
+.links a {
+    text-decoration: none;
+    color: white;
+
+}
+
+
+.newsletter {
+    height: 250px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.newsletter h2 {
+    color: white;
+    padding-bottom: 20px;
+
+}
+
+
+.newsletter input {
+    border: none;
+    outline: none;
+    width: 250px;
+    padding: 5px;
+}
+}
+@media (max-width: 450px) {
+
+
+
+
+  .main-footer {
+      height:700px;
+      width: 400px;
+      background-color: #252525;
+      margin-top: 30px;
+  }
+
+  .child-main {
+      height: 600px;
+      width: 220px;
+      flex-direction: column;
+
+  }
+
+  .address {
+      height: 250px;
+      width: 100%;
+  }
+
+  .address h2 {
+      color: white;
+      padding-bottom: 20px;
+
+  }
+
+
+  .address a {
+      text-decoration: none;
+      color: white;
+
+  }
+
+  .links {
+      height: 250px;
+      width: 100%;
+      margin-top: 20px;
+  }
+
+  .links h2 {
+      color: white;
+      padding-bottom: 20px;
+
+  }
+
+
+  .links a {
+      text-decoration: none;
+      color: white;
+
+  }
+
+
+  .newsletter {
+      height: 250px;
+      width: 100%;
+      margin-top: 30px;
+  }
+
+  .newsletter h2 {
+      color: white;
+      padding-bottom: 20px;
+
+  }
+
+
+  .newsletter input {
+      border: none;
+      outline: none;
+      width: 250px;
+      padding: 5px;
+  }
+} 
+ 
